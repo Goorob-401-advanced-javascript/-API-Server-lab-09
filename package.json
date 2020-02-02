@@ -1,0 +1,23 @@
+{
+  "name": "API-Server-lab-09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goorob-401-advanced-javascript/API-Server-lab-09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goorob-401-advanced-javascript/API-Server-lab-09/issues"
+  },
+  "homepage": "https://github.com/Goorob-401-advanced-javascript/API-Server-lab-09#readme",
+  "dependencies": {
+    "mongoose": "^5.8.11"
+  }
+}
