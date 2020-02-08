@@ -4,7 +4,8 @@
   "description": "",
   "main": "todo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage",
+    "lint":"eslint **/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/Goorob-401-advanced-javascript/API-Server-lab-09#readme",
   "dependencies": {
-    "mongoose": "^5.8.11"
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1"
   }
 }
